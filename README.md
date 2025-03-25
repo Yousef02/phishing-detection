@@ -39,6 +39,7 @@ PhishGuard implements a dual-layer security approach:
 - **History API Integration**: Detects first-time visits to domains
 - **Content Analysis Engine**: DOM-based security evaluation
 - **Real-time Notification System**: Contextual security alerts
+- **IN PROGRESS. WhoIs API to check domain age.
 
 ## Installation
 
