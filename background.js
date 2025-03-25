@@ -324,7 +324,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   
   // Handle request for detailed site check
   if (message.action === 'detailedCheck') {
-    // In a full implementation, you might:
+    // In a full implementation, could prolly:
     // 1. Check domain age via WHOIS API
     // 2. Check against phishing databases
     // 3. Analyze SSL certificate information

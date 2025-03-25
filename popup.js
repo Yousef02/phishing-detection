@@ -196,7 +196,7 @@ function performDetailedCheck() {
         showLoading(false);
         
         if (response) {
-          // In a full implementation, you would display the detailed analysis here
+          // In a full implementation, Maybe display the detailed analysis here
           // using the additionalInfo property from the response
           
           // For now, we'll just show a mock detailed view
@@ -270,7 +270,6 @@ function reportSite() {
     const url = tabs[0].url;
     
     // Open PhishTank report page in a new tab
-    // In a full implementation, you might send to your own backend or multiple services
     chrome.tabs.create({
       url: `https://www.phishtank.com/report.php?url=${encodeURIComponent(url)}`
     });
@@ -281,7 +280,6 @@ function reportSite() {
  * Open the settings page
  */
 function openSettings() {
-  // In a full implementation, you would have a dedicated settings page
   // For now, we'll just show an alert
   alert('Settings page would open here in a full implementation.');
   
